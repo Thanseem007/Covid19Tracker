@@ -1,0 +1,80 @@
+/* HeroSearch private styles */
+.search-result li {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 195px;
+    height: 16px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 22px;  /* Set suggestion dropdown font size */
+	padding: 3px 20px;
+  }
+  
+  .search-result li:hover {
+    background-color: #607D8B;
+  }
+  
+  .search-result li a {
+    color: #888;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #0097CF;
+    color: #FFFFFF;
+  }
+  
+  .search-result li a:hover {
+    color: white;
+  }
+  .search-result li a:active {
+    color: white;
+  }
+  #search-box {
+    border: 2px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 22px; /* Set input font size */
+    height: 30px;
+    line-height: 30px;
+    outline: medium none;
+    padding: 8px 12px;
+    width: 196px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    position: absolute;
+    top: 47px;
+    left: 42px
+  }
+  
+  
+  div.search-result {
+  
+      background-color: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      margin-top: 12px;
+      padding: 8px 0;
+      width: 200px;
+    
+ 
+  }
+
+  .label-search{
+
+  }
+  .tt-suggestion {
+    font-size: 16px;
+    padding: 0px 15px;
+  }
+  .tt-suggestion:hover {
+    cursor: pointer;
+    background-color: #0097CF;
+    color: #FFFFFF;
+  }
+  .tt-suggestion p {
+    margin: 0;
+  }
+
+  

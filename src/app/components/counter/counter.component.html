@@ -1,0 +1,32 @@
+<div class=" d-flex  justify-content-end bd-highlight mb-2">
+               
+        <div class="p-5 bd-highlight">
+                  
+                        <app-typeahead (changeCountry)="change($event)" ></app-typeahead>
+                    
+                
+        </div>
+        <div class="p-5 bd-highlight totalcases">
+                        <span class="label-counter">Active</span>
+                        <app-animatedcounter [counterType]="0" [count]="totalCases" [duration]="900"  >
+                               
+                        </app-animatedcounter>
+                      
+        </div>
+        <div class="p-5 bd-highlight">
+                        <span class="label-recover">Recovered</span>
+                <app-animatedcounter [counterType]="1"  [count]="totalRecovery" [duration]="900"  ></app-animatedcounter>
+            </div>
+        <div class="p-5 bd-highlight">
+                        <span class="label-death">Deaths</span>
+                <app-animatedcounter [counterType]="2"  [count]="totaldeaths" [duration]="1000"  ></app-animatedcounter>
+                    </div>
+      </div>
+
+
+
+
+
+
+
+

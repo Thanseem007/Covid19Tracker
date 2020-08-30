@@ -1,0 +1,21 @@
+ <div id="search-component">
+        <h4><label class="label-search"for="search-box">Hero Search</label></h4>
+      
+        <input #searchBox id="search-box" autocomplete="off" (input)="search(searchBox.value)" />
+      
+        <div [ngClass]="{'d-none':((countries$ | async)?.length==undefined)||((countries$ | async)?.length==0),'search-result':true}"   style="position: absolute; top: 69px; left: 40px; z-index: 100;" >
+          <!-- <li *ngFor="let country of countries$ | async" >
+           
+              {{country.Country}}
+            
+          </li> -->
+          <div style="
+          height: 120px;" class="overflow-auto tt-dataset tt-dataset-cars">
+          <div class="tt-suggestion tt-selectable" *ngFor="let country of countries$ | async">
+            <strong class="tt-highlight"> {{country.Country}}</strong>
+          </div>
+        </div>
+          </div>
+        
+        </div>
+   

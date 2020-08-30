@@ -1,0 +1,30 @@
+ .animated-digit  {
+    display: inline-flex;
+    height: 117px;
+    width: 120px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 92px;
+    justify-content:center;
+    align-items: center;
+    font-size:20pt;
+    font-weight: 700;
+  }
+  .case
+  {
+    color: #4285f4;
+    background:  #ffffff 20%;
+    border: 2px solid #4285f4;
+  }
+  .recover
+  {
+    color: #38a169;
+    background:#ffffff 20%;
+    border:2px solid #1e7e34;
+  }
+  .death
+  {
+    color: #e53e3e;
+    background: #ffffff 20%;
+    border: 2px solid #ad0515;
+  }

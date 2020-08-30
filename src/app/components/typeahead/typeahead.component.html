@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-md-7"><h3>Country </h3></div>
+    <div class="col-md-3"><img style="top: 6px;
+        position: absolute;" src="{{srcflag}}">
+    </div>
+</div>
+  <ng2-completer [initialValue]="placeholder" [(ngModel)]="searchStr" (selected)="OnSelect($event)"[datasource]="dataService" [minSearchLength]="3"></ng2-completer>`

@@ -1,0 +1,33 @@
+
+
+.btn span {
+display: inline-block;
+width:"60px";
+}
+span.label-counter
+{
+    position: absolute;
+    left: 363px;
+    top: 165px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a1bac5;
+}
+span.label-recover
+{
+    position: absolute;
+    left: 559px;
+    top: 165px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a1bac5;
+}
+span.label-death
+{
+    position: absolute;
+    left: 794px;
+    top: 167px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a1bac5;
+}
